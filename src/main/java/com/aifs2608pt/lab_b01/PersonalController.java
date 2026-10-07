@@ -40,6 +40,7 @@ public class PersonalController {
             if(person.getHkid().equals(hkid)){
                 personList.remove(person);
                 return person;
+
             }
         }
         throw new PersonNotFoundException();
